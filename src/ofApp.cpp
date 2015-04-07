@@ -21,6 +21,7 @@ void ofApp::update(){
 void ofApp::draw(){
     //set up the color of the main polyline
     paint.setHue( 60 ) ;
+    ofCircle(100, 100, 30) ;
     paint.setSaturation( 255 ) ;
     paint.setBrightness( 250 ) ;
     ofSetColor(paint) ; //initilize the color
